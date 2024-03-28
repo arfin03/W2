@@ -34,9 +34,9 @@ async def start(update: Update, context: CallbackContext) -> None:
         
         
         caption = f"""
-        ***Heyyyy...***
+        ***👋Hᴇʏʏʏʏ...***
 
-***I Am A Waifu Catcher Bot..\n\nI will send Random Waifu's   \n/grab to.. Collect that Waifus in Your Collection \n and see Collection by using /Harem... \So add in Your groups and Collect Your harem***
+*** 😋I Aᴍ A Wᴀɪғᴜ Cᴀᴛᴄʜᴇʀ Bᴏᴛ..\n 😏I ᴡɪʟʟ sᴇɴᴅ Rᴀɴᴅᴏᴍ Wᴀɪғᴜ's   \n/grab ᴛᴏ.. Cᴏʟʟᴇᴄᴛ ᴛʜᴀᴛ Wᴀɪғᴜs ɪɴ Yᴏᴜʀ Cᴏʟʟᴇᴄᴛɪᴏɴ \nᴀɴᴅ 👀sᴇᴇ Cᴏʟʟᴇᴄᴛɪᴏɴ ʙʏ ᴜsɪɴɢ /harem... \n\n Sᴏ ᴀᴅᴅ ɪɴ Yᴏᴜʀ ɢʀᴏᴜᴘs ᴀɴᴅ Cᴏʟʟᴇᴄᴛ Yᴏᴜʀ ʜᴀʀᴇᴍ🎉***
         """
         
         keyboard = [
@@ -70,15 +70,15 @@ async def button(update: Update, context: CallbackContext) -> None:
         help_text = """
     ***Help Section:***
     
-***/grab: To Grab character (only works in group)***
-***/fav: Add Your fav***
-***/trade : To trade Characters***
-***/gift: Give any Character from Your Collection to another user.. (only works in groups)***
-***/collection: To see Your Collection***
-***/topgroups : See Top Groups.. Ppl Guesses Most in that Groups***
-***/top: Too See Top Users***
-***/ctop : Your ChatTop***
-***/changetime: Change Character appear time (only works in Groups)***
+***/grab: To Grab character (only works in group)\n***
+\n***/fav: Add Your fav\n***
+\n***/trade : To trade Characters\n***
+\n***/gift: Give any Character from Your Collection to another user.. (only works in groups)\n***
+\n***/collection: To see Your Collection\n***
+\n***/topgroups : See Top Groups.. Ppl Guesses Most in that Groups\n***
+\n***/top: Too See Top Users\n***
+\n***/ctop : Your ChatTop\n***
+\n***/changetime: Change Character appear time (only works in Groups)\n***
    """
         help_keyboard = [[InlineKeyboardButton("⤾ Bᴀᴄᴋ", callback_data='back')]]
         reply_markup = InlineKeyboardMarkup(help_keyboard)
@@ -88,9 +88,9 @@ async def button(update: Update, context: CallbackContext) -> None:
     elif query.data == 'back':
 
         caption = f"""
-        ***Hoiiii...*** ✨
+        ***👋Hᴇʏʏʏʏ...*** ✨
 
-***I Am A Waifu Catcher Bot..\n\nI will send Random Waifu's   \n/grab to.. Collect that Waifus in Your Collection \n and see Collection by using /Harem... \So add in Your groups and Collect Your harem***
+*** 😋I Aᴍ A Wᴀɪғᴜ Cᴀᴛᴄʜᴇʀ Bᴏᴛ..\n 😏I ᴡɪʟʟ sᴇɴᴅ Rᴀɴᴅᴏᴍ Wᴀɪғᴜ's   \n/grab ᴛᴏ.. Cᴏʟʟᴇᴄᴛ ᴛʜᴀᴛ Wᴀɪғᴜs ɪɴ Yᴏᴜʀ Cᴏʟʟᴇᴄᴛɪᴏɴ \nᴀɴᴅ 👀sᴇᴇ Cᴏʟʟᴇᴄᴛɪᴏɴ ʙʏ ᴜsɪɴɢ /harem... \n\n Sᴏ ᴀᴅᴅ ɪɴ Yᴏᴜʀ ɢʀᴏᴜᴘs ᴀɴᴅ Cᴏʟʟᴇᴄᴛ Yᴏᴜʀ ʜᴀʀᴇᴍ🎉***
         """
 
         
