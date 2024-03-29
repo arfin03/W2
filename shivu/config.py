@@ -5,9 +5,9 @@ class Config(object):
     OWNER_ID = "6253265083"
     sudo_users = "6253265083", "5382284735", "5297949798", "6338745050", "1466012993", "5348552949"
     GROUP_ID = "-1002096627846"
-    TOKEN = "6511494597:AAEVP5QbpkZYEcXbbu5Eom9Qir31G4Z2kGk"
+    TOKEN = "7088122814:AAEjGpQC9tcIcyYthbeRJKvAfwZhgJNcA1Y"
     mongo_url = "mongodb+srv://BrandedSupportGroup:BRANDED_WORLD@cluster0.v4odcq9.mongodb.net/?retryWrites=true&w=majority"
-    PHOTO_URL = ["https://telegra.ph/file/2322cb937757a22a2a39d.jpg", "https://telegra.ph/file/2322cb937757a22a2a39d.jpg"]
+    PHOTO_URL = ["https://telegra.ph/file/7565b6a25a480d4dad36e.jpg", "https://telegra.ph/file/f7da678981007299d5a0e.jpg"]
     SUPPORT_CHAT = "WAIFU_GRABBERS"
     UPDATE_CHAT = "WH_ubdates"
     BOT_USERNAME = "Grab_waifus_bot"
