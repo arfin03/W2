@@ -13,6 +13,6 @@ async def ping(update: Update, context: CallbackContext) -> None:
     message = await update.message.reply_text('Pong!')
     end_time = time.time()
     elapsed_time = round((end_time - start_time) * 1000, 3)
-    await message.edit_text(f'🏓ᴘᴏɴɢ! {elapsed_time}ms ✨ \n I'ᴍ ᴀʟɪᴠᴇ ʙᴀʙʏ👻')
+    await message.edit_text(f'🏓ᴘᴏɴɢ! {elapsed_time}ms ✨ \n I'ᴍ ᴀʟɪᴠᴇ ʙᴀʙʏ')
 
 application.add_handler(CommandHandler("ping", ping))
