@@ -20,7 +20,7 @@ async def start(update: Update, context: CallbackContext) -> None:
         await collection.insert_one({"_id": user_id, "first_name": first_name, "username": username})
         
         await context.bot.send_message(chat_id=GROUP_ID, 
-                                       text=f"New user Started The Bot..\n User: <a href='tg://user?id={user_id}'>{escape(first_name)})</a>", 
+                                       text=f"Nᴇᴡ ᴜsᴇʀ Sᴛᴀʀᴛᴇᴅ Tʜᴇ Bᴏᴛ😄\n\n 🥀Usᴇʀ: <a href='tg://user?id={user_id}'>{escape(first_name)})</a>", 
                                        parse_mode='HTML')
     else:
         
@@ -60,7 +60,7 @@ async def start(update: Update, context: CallbackContext) -> None:
         ]
         
         reply_markup = InlineKeyboardMarkup(keyboard)
-        await context.bot.send_photo(chat_id=update.effective_chat.id, photo=photo_url, caption="🎴Alive!?... \n connect to me in PM For more information ",reply_markup=reply_markup )
+        await context.bot.send_photo(chat_id=update.effective_chat.id, photo=photo_url, caption="I Aᴍ Aʟɪᴠᴇ! Dᴜᴅᴇ... \n\n 🔗ᴄᴏɴɴᴇᴄᴛ ᴛᴏ ᴍᴇ ɪɴ PM Fᴏʀ ᴍᴏʀᴇ ɪɴғᴏʀᴍᴀᴛɪᴏɴ✨",reply_markup=reply_markup )
 
 async def button(update: Update, context: CallbackContext) -> None:
     query = update.callback_query
