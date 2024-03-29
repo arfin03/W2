@@ -21,7 +21,7 @@ async def trade(client, message):
         return
 
     if len(message.command) != 3:
-        await message.reply_text("Yᴏᴜ ɴᴇᴇᴅ ᴛᴏ ᴘʀᴏᴠɪᴅᴇ ᴛᴡᴏ ᴄʜᴀʀᴀᴄᴛᴇʀ IDs!"")
+        await message.reply_text("Yᴏᴜ ɴᴇᴇᴅ ᴛᴏ ᴘʀᴏᴠɪᴅᴇ ᴛᴡᴏ ᴄʜᴀʀᴀᴄᴛᴇʀ IDs!")
         return
 
     sender_character_id, receiver_character_id = message.command[1], message.command[2]
