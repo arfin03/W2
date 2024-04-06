@@ -32,12 +32,12 @@ sudo_users = Config.sudo_users
 OWNER_ID = Config.OWNER_ID 
 
 application = Application.builder().token(TOKEN).build()
-shivuu = Client("Shivu", api_id, api_hash, bot_token=TOKEN)
+shivuu = Client("harsh", api_id, api_hash, bot_token=TOKEN)
 lol = AsyncIOMotorClient(mongo_url)
-db = lol['Character_catcher']
-collection = db['anime_characters_lol']
-user_totals_collection = db['user_totals_lmaoooo']
-user_collection = db["user_collection_lmaoooo"]
-group_user_totals_collection = db['group_user_totalsssssss']
+db = huh['Character_graber']
+collection = db['anime_characters_graber']
+user_totals_collection = db['user_totals_hehe']
+user_collection = db["user_collection_hehe"]
+group_user_totals_collection = db['group_user_totalss']
 top_global_groups_collection = db['top_global_groups']
 pm_users = db['total_pm_users']
