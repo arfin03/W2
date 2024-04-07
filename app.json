@@ -9,7 +9,7 @@
          "Waifu Catcher",
          "Catcher"
       ],   
-   "repository": "https://github.com/un-bots/w",
+   "repository": "https://github.com/harsh-un/w2",
    "stack": "heroku-22",
    "addons": [
       {
