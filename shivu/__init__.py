@@ -34,7 +34,7 @@ OWNER_ID = Config.OWNER_ID
 application = Application.builder().token(TOKEN).build()
 shivuu = Client("harsh", api_id, api_hash, bot_token=TOKEN)
 lol = AsyncIOMotorClient(mongo_url)
-db = huh['Character_graber']
+db = lol['Character_graber']
 collection = db['anime_characters_graber']
 user_totals_collection = db['user_totals_hehe']
 user_collection = db["user_collection_hehe"]
